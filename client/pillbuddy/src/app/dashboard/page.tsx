@@ -58,7 +58,7 @@ export default function Dashboard() {
   return (
     <div className="space-y-8">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Today’s Medications</h1>
+        <h1 className="text-2xl font-bold text-black">Today’s Medications</h1>
         <Link
           href="/meds/create"
           className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700"
